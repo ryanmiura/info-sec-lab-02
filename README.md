@@ -38,3 +38,19 @@ As seguintes informações, especificadas no enunciado, devem ser utilizadas dur
 * **Nomes DNS (para Subject Alternative Name - SAN) (conforme arquivo de configuração CSR):**
     * `DNS.1 = <parametro>` (será `seunome.utfpr.edu.br`) [cite: 9]
     * `DNS.2 = www.<parametro>` (será `www.seunome.utfpr.edu.br`) [cite: 9]
+
+
+## Utilização do Script `gerar_certificado_lab2.sh` 
+
+Para facilitar a execução destes passos, um script Bash chamado `gerar_certificado_lab2.sh` pode ser criado (conforme gerado em interações anteriores). Ao ser executado, este script solicitará as informações personalizadas (seu nome, sobrenome, nome de usuário para o CN, sua cidade e sua turma) e realizará todos os comandos OpenSSL necessários para gerar os arquivos, incluindo o certificado final no formato `.CRT` com o nome correto.
+
+**Instruções para o script (caso utilize o script sugerido):**
+
+1.  Salve o conteúdo do script em um arquivo (ex: `gerar_certificado_lab2.sh`).
+2.  Dê permissão de execução: `chmod +x gerar_certificado_lab2.sh`.
+3.  Execute o script: `./gerar_certificado_lab2.sh`.
+4.  Siga as instruções fornecidas pelo script.
+
+Ao final, o script indicará o nome do arquivo `.CRT` gerado, que deverá ser submetido conforme as instruções da atividade[cite: 7, 8].
+
+Este documento serve como um guia para entender os conceitos e os passos envolvidos na atividade. Consulte o PDF original do laboratório para todos os detalhes e requisitos[cite: 11].
